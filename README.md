@@ -21,4 +21,4 @@ Things to be done before executing run_analysis.R
 
 Execution and output
 --------------
-Execute the R script by source("run_analysis.R"), it outputs tidy.csv file under the current folder.
+Execute the R script by source("run_analysis.R"), it outputs tidy.txt file under the current folder.

@@ -14,7 +14,7 @@ Program rundown and transformation
 * Load and combine subject id, activity name and train dataset into trainds
 * Combine testds and trainds using rbind
 * Reshape the data using melt and dcast functions, in order to output mean values of each std() and mean() measurements by subject id and activity name
-* tidy dataset (tidy.csv) will be generated under current folder
+* tidy dataset (tidy.txt) will be generated under current folder
 
 Variables
 -----------

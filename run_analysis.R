@@ -40,4 +40,4 @@ molten = melt(ds, id=c("subject_id", "activity_name"), na.rm = TRUE)
 tidyds <- dcast(molten, subject_id + activity_name ~ variable,mean)
 
 ##output tidyds
-write.csv(tidyds, file = "tidy.csv", row.names=FALSE)
+write.csv(tidyds, file = "tidy.txt", row.names=FALSE)
